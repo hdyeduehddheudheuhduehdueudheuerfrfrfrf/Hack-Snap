@@ -37,7 +37,7 @@ print(end_banner_color+'__________________________________________________')
 print(end_banner_color+"")
 
 
-d1mod = input (end_banner_color + '''
+d1mod = input (red_color + '''
 1 - Brute force snapchat 2021
 2 - Brute force snapchat -> 2FA
 3 - replace info snapchat -> 2FA
