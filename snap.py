@@ -97,10 +97,10 @@ if d1mod == "1":
                 print(red_color+"---------------------------------------")
                 print((red_color + '' + user + ':' + password + ' --> Error '))
 
-if falah == "2":
+if d1mod == "2":
   ketik ("\033[1;33m MADE BY D1MOD1877 https://www.d1modev.ml/....\033[1;33m")
   time.sleep(0.5)
   
-if falah == "3":
+if d1mod == "3":
   ketik ("\033[1;33m MADE BY D1MOD1877 https://www.d1modev.ml/....\033[1;33m")
   time.sleep(0.5)
